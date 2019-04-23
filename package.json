@@ -21,7 +21,7 @@
     "test:mocha": "mocha --opts .mocha.opts $(find src -name '*-test.js')",
     "test:watch": "npm test | npm run watch",
     "watch": "npm-watch",
-    "postinstall": "opencollective postinstall"
+    "prepare": "npm run build"
   },
   "watch": {
     "test": {
